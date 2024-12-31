@@ -1,4 +1,3 @@
-/* グローバルスタイル */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -9,7 +8,6 @@ body {
 }
 
 
-/* ヘッダー */
 header {
     background-color: #333;
     color: #fff;
@@ -37,7 +35,6 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-/* メインセクション */
 main {
     margin: 20px;
     padding: 20px;
@@ -46,7 +43,14 @@ main {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* セクションのタイトル */
+.custom-hr {
+    border: none;
+    height: 2px;
+    background-color: #888;
+}
+
+
+
 main h2 {
     color: #333;
     border-bottom: 2px solid #0078d7;
@@ -54,7 +58,6 @@ main h2 {
     margin-bottom: 15px;
 }
 
-/* リンク */
 main a {
     color: #0078d7;
     text-decoration: none;
@@ -64,12 +67,10 @@ main a:hover {
     text-decoration: underline;
 }
 
-/* セクションの間隔 */
 section {
     margin-bottom: 20px;
 }
 
-/* フッター */
 footer {
     text-align: center;
     padding: 10px;
