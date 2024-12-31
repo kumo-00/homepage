@@ -43,13 +43,6 @@ main {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.custom-hr {
-    border: none;
-    height: 1px;
-    background-color: #888;
-}
-
-
 
 main h2 {
     color: #333;
